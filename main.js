@@ -1,10 +1,12 @@
-//const productos = {}
+
 function Clientes (nombre , dni, localidad, producto) {
     this.nombre = nombre;
     this.dni = dni;
     this.localidad = localidad;
     this.producto = producto;
 };
+
+const productos = ["Prestamo", "Seguros", "Pozo de inversion"];
 
 
 let nombre = prompt ("Ingrese nombre");
@@ -19,7 +21,3 @@ const cliente1 = new Clientes ( {
    producto:  `${producto}`,
 });
 
-alert ( [cliente1])
-
-
-console.log(Clientes);
